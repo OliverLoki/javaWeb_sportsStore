@@ -1,0 +1,49 @@
+html{
+    perspective: 800px;
+}
+.cube img{
+    width: 200px;
+    height: 200px;
+}
+.cube{
+    width: 200px;
+    height: 200px;
+    margin: 200px auto;
+    /*3D变形效果*/
+    transform-style: preserve-3d;
+    animation: rotate linear 10s infinite;
+}
+.cube > div{
+    position: absolute;
+    opacity: 0.9;
+}
+img{
+    vertical-align: top;
+}
+.box1{
+    transform: rotateY(90deg) translateZ(100px);
+
+}
+.box2{
+    transform: rotateY(-90deg) translateZ(100px);
+}
+.box3{
+    transform: rotateX(90deg) translateZ(100px);
+}
+.box4{
+    transform: rotateX(-90deg) translateZ(100px);
+}
+.box5{
+    transform: rotateY(180deg) translateZ(100px);
+}
+.box6{
+    transform: rotateY(0deg) translateZ(100px);
+}
+@keyframes rotate{
+    from{
+        transform: rotateX(0) rotateZ(0);
+    }
+    to{
+        transform: rotateX(1turn) rotateZ(1turn);
+    }
+}

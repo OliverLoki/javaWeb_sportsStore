@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="smbms.dao.goods.GoodsDao">
+
+    <select id="selectUser" resultType="smbms.dao.user.UserDao">
+    select * from Goods
+    </select>
+
+
+</mapper>
