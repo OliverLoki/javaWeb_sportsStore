@@ -4,6 +4,7 @@
 
 # 基于MVC+Maven+JDBC+JSP+Servlet实现的JavaWeb项目
 
+一个用户一个购物车，有登录功能但是没截图
 ## 1、界面展示
 
 ![image-20210604203951211](https://i.loli.net/2021/06/08/SfTF2CtjMueZp9o.png)
